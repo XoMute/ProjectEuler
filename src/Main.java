@@ -1,9 +1,8 @@
-import com.xomute.euler001.Euler001;
-import com.xomute.euler002.Euler002;
+import com.xomute.euler003.Euler003;
 
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println(Euler002.fibonacciSum(4000000));
+    System.out.println(Euler003.largestPrimeFactor(600851475143L));
   }
 }

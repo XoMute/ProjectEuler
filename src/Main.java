@@ -1,5 +1,5 @@
 import com.xomute.euler005.Euler005;
-import com.xomute.euler007.Euler007;
+import com.xomute.euler008.Euler008;
 
 public class Main {
 

@@ -6,11 +6,6 @@ public class Euler012 {
     long number = 0;
     for(int i = 1; ; i++) {
       number += i;
-      if(number == Long.MAX_VALUE) {
-        System.out.println("TOP BORDER!!!");
-        return 0;
-      }
-      System.out.println(numberOfDivisors(number));
       if(numberOfDivisors(number) >= n) return number;
     }
 
